@@ -35,7 +35,7 @@ NSYNC_URL="$(grep -o 'https://mirror.bazel.build/github.com/google/nsync/.*tar\.
 # process. For now we're hardcoding to the version which is used by
 # TensorFlow 1.9.
 # Shir L: Incorporating fixes for Xcode 10 (Objective C protocol buffers)
-PROTOBUF_URL="https://github.com/resonai/protobuf/archive/a1a81ba091b932d5eec9bcd9d2ff057fc0fce9ef.zip"
+PROTOBUF_URL="https://github.com/resonai/protobuf/archive/resonai-master.zip"
 # TODO (yongtang): Replace the following with 'https://mirror.bazel.build/github.com/google/re2/.*tar\.gz' once
 # the archive has been propagated in mirror.bazel.build.
 RE2_URL="$(grep -o 'https://github.com/google/re2/.*tar\.gz' "${BZL_FILE_PATH}" | head -n1)"
